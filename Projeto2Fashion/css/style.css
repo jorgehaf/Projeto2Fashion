@@ -52,8 +52,6 @@ body {
   letter-spacing: 3px;
 }
 
-
-
 .portfolio {
   padding: 50px 100px;
   text-align: center;
@@ -71,10 +69,72 @@ body {
 
 .gallery {
   color: #555;
+  padding: 0;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .gallery-card {
   display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.about {
+  margin-top: 50px;
+  background-color: #003d52;
+  padding: 30px 80px 50px;
+  color: rgb(191, 206, 219);
+  background-image: url(../imagens/bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  width: 70%;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0px 55px;
+}
+
+#contact address {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  color: #003d52;
+}
+
+.maps {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  background: #00141b;
+  padding: 15px;
+  color: white;
+  text-align: center;
 }
