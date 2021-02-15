@@ -1,2 +1,2 @@
 # Projeto2Fashion
-Primeiro site 
+Esse foi um dos primeiros sites criado utilizando os padrões de flex-box.
