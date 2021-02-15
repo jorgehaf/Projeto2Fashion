@@ -13,7 +13,7 @@ body {
   height: 50px;
   background: #162028;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logoTipo {
